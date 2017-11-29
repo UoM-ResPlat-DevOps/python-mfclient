@@ -99,6 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
-doc/_build/
+docs/_build/
 .DS_Store
 .idea
