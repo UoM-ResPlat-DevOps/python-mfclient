@@ -20,7 +20,7 @@ try:
     result = connection.execute('server.version')
     
     # print server version
-    print(result.value('version')
+    print(result.value('version'))
 finally:
     connection.close()
 ```
@@ -29,4 +29,5 @@ finally:
 
   * See [more exmamples](https://github.com/UoM-ResPlat-DevOps/python-mfclient/tree/master/src/examples)
 
-### 3. [API Documentation](http://python-mfclient.readthedocs.io/en/latest/source/mfclient.html#module-mfclient)
+### 3. API Documentation
+  * See [API documentation on readthedocs.io](http://python-mfclient.readthedocs.io/en/latest/source/mfclient.html#module-mfclient)
