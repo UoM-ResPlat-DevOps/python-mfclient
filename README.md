@@ -1,2 +1,2 @@
 # python-mfclient
-Mediaflux client written in Python.
+Python Mediaflux Client.
