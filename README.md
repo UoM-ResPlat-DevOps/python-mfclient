@@ -25,7 +25,7 @@ if __name__ == '__main__':
         # print result xml
         print(result)
 
-        # print server version
+        # print Mediaflux server version
         print(result.value('version'))
     finally:
         connection.close()
