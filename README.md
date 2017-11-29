@@ -12,17 +12,26 @@ Python Mediaflux Client.
 import mfclient
 # create connection object
 connection = mfclient.MFConnection(host='mediaflux.your.org', port=443, transport='https', domain='your-domain', user='your-username', password='your-password')
-try:
-    # connect to mediaflux server
-    connection.open()
-    
-    # run server.version service
-    result = connection.execute('server.version')
-    
-    # print server version
-    print(result.value('version'))
-finally:
-    connection.close()
+import mfclient
+
+if __name__ == '__main__':
+    # create connection object
+    connection = mfclient.MFConnection(host='mediaflux.your.org', port=443, transport='https', domain='your-domain',
+                                       user='your-username', password='your-password')
+    try:
+        # connect to mediaflux server
+        connection.open()
+
+        # run server.version service
+        result = connection.execute('server.version')
+
+        # print result xml
+        print(result)
+
+        # print server version
+        print(result.value('version'))
+    finally:
+        connection.close()
 ```
 
 ### 2. Examples
