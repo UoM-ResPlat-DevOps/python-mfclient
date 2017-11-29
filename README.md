@@ -1,5 +1,8 @@
 # python-mfclient
 Python Mediaflux Client.
 
+### 1. Quick Start
 
-### [Online Python API Documentation](http://python-mfclient.readthedocs.io/en/latest/py-modindex.html)
+### 2. Examples
+
+### 3. [API Documentation](http://python-mfclient.readthedocs.io/en/latest/source/mfclient.html#module-mfclient)
