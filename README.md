@@ -3,7 +3,7 @@ Python Mediaflux Client.
 
 ### 1. Quick Start
 
-  a. Check out mfclient.py from [github](https://github.com/UoM-ResPlat-DevOps/python-mfclient)
+  a. Check out [mfclient.py](https://raw.githubusercontent.com/UoM-ResPlat-DevOps/python-mfclient/master/src/mfclient.py) from [github](https://github.com/UoM-ResPlat-DevOps/python-mfclient)
 
   b. import mfclient module into your python code and use the API to communicate with Mediaflux server.
 
