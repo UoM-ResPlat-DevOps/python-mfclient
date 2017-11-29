@@ -27,6 +27,6 @@ finally:
 
 ### 2. Examples
 
-  * See [more exmamples]()
+  * See [more exmamples](https://github.com/UoM-ResPlat-DevOps/python-mfclient/tree/master/src/examples)
 
 ### 3. [API Documentation](http://python-mfclient.readthedocs.io/en/latest/source/mfclient.html#module-mfclient)
