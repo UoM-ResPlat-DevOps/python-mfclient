@@ -10,9 +10,6 @@ Python Mediaflux Client.
   c. simple example below shows how to import the module, connect to mediaflux server and execute a service:
 ```python
 import mfclient
-# create connection object
-connection = mfclient.MFConnection(host='mediaflux.your.org', port=443, transport='https', domain='your-domain', user='your-username', password='your-password')
-import mfclient
 
 if __name__ == '__main__':
     # create connection object
