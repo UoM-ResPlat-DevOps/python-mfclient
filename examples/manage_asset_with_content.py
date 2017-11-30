@@ -69,7 +69,7 @@ OUTPUT_FILE = '/tmp/2.txt'
 
 if __name__ == '__main__':
     # create connection object (NOTE: You need to substitute with your server details.)
-    connection = mfclient.MFConnection(host='localhost', port=8086, transport='http', domain='system',
+    connection = mfclient.MFConnection(host='localhost', port=8080, transport='http', domain='system',
                                        user='manager', password='change_me')
     try:
         # connect to mediaflux server
