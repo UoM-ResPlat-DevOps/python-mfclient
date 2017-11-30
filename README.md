@@ -33,7 +33,14 @@ if __name__ == '__main__':
 
 ### 2. Examples
 
-  * See [more exmamples](https://github.com/UoM-ResPlat-DevOps/python-mfclient/tree/master/src/examples)
+  1. [quick-start example](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/quick_start.py)
+  2. [create asset with metadata](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/manage_asset_metadata.py)
+  3. [get asset metadata](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/manage_asset_metadata.py)
+  4. [change asset metadata](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/manage_asset_metadata.py)
+  5. [create asset with content (upload a file as an asset)](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/manage_asset_with_content.py)
+  6. [get asset content (download asset content to local file system)](https://github.com/UoM-ResPlat-DevOps/python-mfclient/blob/master/examples/manage_asset_with_content.py)
+  
+  * See [more exmamples](https://github.com/UoM-ResPlat-DevOps/python-mfclient/tree/master/examples)
 
 ### 3. API Documentation
   * See [API documentation on readthedocs.io](http://python-mfclient.readthedocs.io/en/latest/source/mfclient.html#module-mfclient)
