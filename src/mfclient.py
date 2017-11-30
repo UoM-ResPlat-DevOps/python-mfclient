@@ -944,19 +944,20 @@ class MFConnection(object):
 
     def execute(self, service, args=None, inputs=None, outputs=None, route=None, emode=None):
         """ Execute the specified service on Mediaflux server.
+
         :param service: name of the service
         :type service: str
-        :param args: service arguments. Can be str of XML element, XmlElement object or ElementTree.Element object
-        :type args: str or XmlElement or ElementTree.Element
-        :param inputs: list of service inputs (MFInput objects)
-        :type inputs: list of MFInput objects
-        :param outputs: list of service outputs (MFOutput objects)
-        :type outputs: list of MFOutput objects
+        :param args: service args. Can be XML string, XmlElement object or ElementTree.Element object.
+        :type args: XmlElement
+        :param inputs: service inputs. List of MFInput objects.
+        :type inputs: list
+        :param outputs: service outputs. List of MFOutput objects.
+        :type outputs: list
         :param route: server route. Used for distributed service calls in federated server environment.
         :type route: str
-        :param emode: execute mode for distributed service calls. select from 'distributed-first' or 'distributed-all'
+        :param emode: execute mode. For distributed service calls. select from 'distributed-first' or 'distributed-all'
         :type emode: str
-        :return: service result XML (XmlElement object).
+        :return: service result XML
         :rtype: XmlElement
         """
         sgen = MFConnection.sequence_generator()
