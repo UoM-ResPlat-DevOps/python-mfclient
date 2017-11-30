@@ -218,6 +218,27 @@ class XmlElement(object):
         else:
             return default
 
+    def long_value(self, xpath=None, default=None, base=10):
+        """Gets the long integer value at the specified xpath. If xpath argument is not given, return the value of the
+        current element.
+
+        :param xpath: xpath
+        :type xpath: str
+        :param default: value to return if node does not exist at the specified xpath
+        :type default: long
+        :param base: the radix base to use.
+        :type base: int
+        :return: value of the given xpath, or value of the element if xpath is not given.
+        :rtype: long
+
+        """
+        assert default is None or isinstance(default, long) or isinstance(default, int)
+        value = self.value(xpath)
+        if value is not None:
+            return long(value, base)
+        else:
+            return default
+
     def float_value(self, xpath=None, default=None):
         """Gets the float value at the specified xpath. If xpath argument is not given, return the value of the current element.
 
